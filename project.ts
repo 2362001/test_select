@@ -1,7 +1,9 @@
-export class Project{
-    name:string;
-    
-    constructor(name:string){
-      this.name=name;
-    }
+export class Project {
+  value: number;
+  label: string;
+
+  constructor(value: number, label: string) {
+    this.value = value;
+    this.label = label;
   }
+}
